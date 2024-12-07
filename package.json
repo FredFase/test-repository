@@ -1,6 +1,10 @@
 {
   "name": "test-app",
   "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FredFase/test-repository.git"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -39,6 +43,10 @@
     ]
   },
   "devDependencies": {
-    "eslint": "^8.50.0"
+    "@semantic-release/commit-analyzer": "^13.0.0",
+    "@semantic-release/github": "^11.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "eslint": "^8.50.0",
+    "semantic-release": "^24.2.0"
   }
 }
